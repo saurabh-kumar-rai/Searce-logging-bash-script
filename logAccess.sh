@@ -160,7 +160,7 @@ cd ..
 zip -r ${currdate}_LOGS.zip ${currdate}_LOGS
 
 
-url=$(curl -m 70 -o -X POST https://us-central1-stone-resource-352608.cloudfunctions.net/Signed_url \
+url=$(curl -m 70 -o -X POST https://us-central1-crested-aquifer-352613.cloudfunctions.net/Signed_url \
 -H "Content-Type:application/json" \
 -d '{"name": "'"$currdate"'"}')
 
